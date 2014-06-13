@@ -82,6 +82,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+input:active, input:focus, textarea:active, textarea:focus  {
+    outline: none;
+}
 
 /*3. GENERAL    STYLES*/
 
@@ -500,5 +503,49 @@ footer p {
 }
 /*9. FEEDBACK PAGE STYLES*/
 .feedback-form {
-    
+    width: 293px;
+
+    font-family: Arial, sans-serif;
+    color: #f5f5f5;
+    font-size: 14px;
+    margin: 150px 0 0 150px;
+}
+.feedback-form h5 {
+    margin: 0 0 30px 0;
+}
+.feedback-form label {
+    display: block;
+    margin: 10px 0 20px 0;
+}
+.feedback-form input {
+    border: 1px solid #5b6057;
+    background: #191d15;
+    border-radius: 5px;
+    width: 281px;
+    height: 29px;
+    color: #fff;
+    padding: 0 0 0 10px;
+}
+.feedback-form textarea {
+    border: 1px solid #5b6057;
+    background: #191d15;
+    border-radius: 5px;
+    width: 281px;
+    height: 140px;
+    margin: 0 0 20px 0;
+    max-height: 140px;
+    resize: none;
+    color: #fff;
+    padding: 10px 0 0 10px;
+}
+.feedback-form .send-btn {
+    cursor: pointer;
+    width: 168px;
+    border: none;
+    height: 47px;
+    background: url(../i/markup/sprite-send-btn.png) no-repeat;
+    float: right;
+}
+.feedback-form .send-btn:hover {
+    background-position: 0px -53px;
 }
