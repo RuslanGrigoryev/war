@@ -11,6 +11,7 @@ COLORS :
     6. SECTION BOTTOM STYLES
     7. BOOK PAGE STYLES
     8. PAGE VIDEO STYLES
+    9. FEEDBACK PAGE STYLES
 */
 
 /*1. FONT    STYLES*/
@@ -496,4 +497,8 @@ footer p {
 }
 .bottom-video-page .wrapper {
     min-height: 336px;
+}
+/*9. FEEDBACK PAGE STYLES*/
+.feedback-form {
+    
 }
