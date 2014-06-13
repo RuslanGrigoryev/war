@@ -10,6 +10,7 @@ COLORS :
     5. SECTION MAIN STYLES
     6. SECTION BOTTOM STYLES
     7. BOOK PAGE STYLES
+    8. PAGE VIDEO STYLES
 */
 
 /*1. FONT    STYLES*/
@@ -391,32 +392,32 @@ footer p {
     padding: 15px 0 0 55px;
     line-height: 16px;
 }
-.block-book {
+.block-content {
     padding: 0px 100px 0 55px;
     position: relative;
     background: url(../i/markup/sprite-book.png) -4px 5px no-repeat;
     margin: 30px 0 33px 0;
 }
-.block-book__header {
+.block-content__header {
     font-family: 'franklin_gothic_medium_condRg';
     font-size: 24px;
     color: #f3c38b;
 }
-.block-book__author {
+.block-content__author {
     font-family: Arial, sans-serif;
     color: #80827d;
     font-size: 12px;
     margin: 9px 0 14px 0;
     display: block;
 }
-.block-book__text {
+.block-content__text {
     color: #b3b3b3;
     padding: 12px 0 0 0;
     border-top: 1px dashed #b3b3b3;
     line-height: 14px;
     margin: 0 15px 0 0;
 }
-.block-book__download-link {
+.block-content__download-link {
     width: 105px;
     color: #80827d;
     font-family: Arial, sans-serif;
@@ -471,4 +472,23 @@ footer p {
 }
 .bottom-book-page .wrapper {
     min-height: 343px;
+}
+/*8. PAGE VIDEO*/
+.block-content__author span {
+    color: #fff;
+}
+.main--video-page .block-content {
+    background: none;
+    padding: 0 0 0 55px;
+}
+.wrap-video {
+    width: 392px;
+    height: 234px;
+    background: #acb4a4;
+    float: left;
+    margin: 0 20px 0 0;
+}
+.block-content-wrap {
+    float: left;
+    width: 580px;
 }
