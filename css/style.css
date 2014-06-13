@@ -1,7 +1,12 @@
-﻿/*
+﻿/*  
+COLORS :
+
+#caa171 - top header  link orange.
+
     1. FONT    STYLES
     2. RESET   STYLES
     3. GENERAL STYLES
+    4. HEADER  STYLES
 */
 
 /*1. FONT    STYLES*/
@@ -87,6 +92,18 @@ body {
   line-height: 1;
   color: #767676;
 }
+a {
+    text-decoration: none
+}
+a:hover {
+    text-decoration: underline;
+}
+.f-left {
+    float: left;
+}
+.f-right {
+    float: right;
+}
 header {
     background: #000 url(../i/markup/bg-main.png) center center no-repeat;
     height: 395px;
@@ -98,8 +115,90 @@ header {
 .wrapper {
     width: 1100px;
     margin: 0 auto;
+    position: relative;
 }
 footer {
     min-height: 220px;
     background: url(../i/markup/bg-footer.png) no-repeat;
+}
+
+/*4. HEADER  STYLES*/
+
+.top-header {
+    background: url(../i/markup/pattern-header.png);
+    height: 27px;
+    line-height: 27px;
+}
+.top-header__link {
+    color: #caa171;
+    font-family: Arial;
+    font-size: 12px;
+}
+.top-header__item {
+    float: left;
+    margin: 0 0 0 30px;
+}
+.top-header__item--stick {
+    background: url(../i/markup/stick.png) right center no-repeat;
+    padding: 0 30px 0 0;
+}
+.center-header {
+    height: 230px;
+    margin: 20px 0 0 0;
+}
+.center-header .wrap-logo {
+    float: left;
+}
+.logo-link {
+    display: block;
+}
+.wrap-text {
+    width: 530px;
+    float: right;
+    padding: 80px 0;
+}
+.wrap-text strong {
+    color: #fff;
+    display: block;
+    text-shadow: -1px 2px 2px rgba(0,0,0, .77);
+    text-transform: uppercase;
+    font-size: 24px;
+}
+.bottom-header .wrapper {
+    height: 108px;
+    background: url(../i/markup/bg-main-menu.png) no-repeat;
+}
+.main-menu-list {
+    font-family: 'franklin_gothic_medium_condRg';
+    line-height: 108px;
+    padding: 0 30px;
+}
+.main-menu-list__item {
+    float: left;
+    margin: 0 16px;
+}
+.main-menu-list__link {
+    font-size: 18px;
+    color: #f3c38b;
+}
+.main-menu-list--second {
+    background: url(../i/markup/bg-main-menu-second.png) no-repeat;
+    width: 182px;
+    height: 56px;
+    position: absolute;
+    top: -20px;
+    right: 100px;
+    line-height: 56px;
+}
+.main-menu-list--second__item {
+    float: left;
+    margin: 0 0 0 15px;
+}
+.main-menu-list--second__link {
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+}
+.main-menu-list--second .top-header__item--stick {
+    padding: 0 12px;
 }
