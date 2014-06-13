@@ -81,9 +81,25 @@ table {
   clear: both;
 }
 body {
-  /*background: url(../i/markup/bg.png);
-  font-family: 'Myriad Pro',Verdana, Arial, sans-serif;*/
+  background: #2e1004;
+  font-family: 'machinecregular';
   font-size: 16px;
   line-height: 1;
   color: #767676;
+}
+header {
+    background: #000 url(../i/markup/bg-main.png) center center no-repeat;
+    height: 395px;
+}
+.main {
+    background: url(../i/markup/bg-top-main.png) top center no-repeat;
+    min-height: 1000px;
+}
+.wrapper {
+    width: 1100px;
+    margin: 0 auto;
+}
+footer {
+    min-height: 220px;
+    background: url(../i/markup/bg-footer.png) no-repeat;
 }
