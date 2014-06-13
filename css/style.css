@@ -360,7 +360,7 @@ footer p {
 }
 /*7. book page*/
 .main--book-page {
-    padding: 60px 0 0 0;
+    padding: 56px 0 0 0;
     position: relative;
 }
 .main-page {
@@ -377,10 +377,10 @@ footer p {
     position: absolute;
     top: -45px;
     left: 0;
-    line-height: 45px;
+    line-height: 59px;
 }
 .one-tab h2 {
-    padding: 0 0 0 20px;
+    padding: 0 0 0 26px;
     font-size: 30px;
     color: #fff;
 }
@@ -388,13 +388,14 @@ footer p {
     font-weight: bold;
     font-size: 14px;
     color: #fff;
-    padding: 0 0 0 40px;
+    padding: 15px 0 0 55px;
+    line-height: 16px;
 }
 .block-book {
-    padding: 0 100px 0 50px;
+    padding: 0px 100px 0 55px;
     position: relative;
     background: url(../i/markup/sprite-book.png) -4px 5px no-repeat;
-    margin: 20px 0 20px 0;
+    margin: 30px 0 33px 0;
 }
 .block-book__header {
     font-family: 'franklin_gothic_medium_condRg';
@@ -405,13 +406,15 @@ footer p {
     font-family: Arial, sans-serif;
     color: #80827d;
     font-size: 12px;
-    margin: 5px 0 10px 0;
+    margin: 9px 0 14px 0;
     display: block;
 }
 .block-book__text {
     color: #b3b3b3;
-    padding: 20px 0 0 0;
+    padding: 12px 0 0 0;
     border-top: 1px dashed #b3b3b3;
+    line-height: 14px;
+    margin: 0 15px 0 0;
 }
 .block-book__download-link {
     width: 105px;
@@ -420,20 +423,20 @@ footer p {
     font-size: 12px;
     height: 50px;
     position: absolute;
-    right: -10px;
-    top: 26px;
-    background: url(../i/markup/sprite-book.png) 53px -152px no-repeat;
+    right: 6px;
+    top: 35px;
+    background: url(../i/markup/sprite-book.png) 48px -153px no-repeat;
     line-height: 50px;
 }
 .pagin-list {
     text-align: center;
-    margin: 0 auto;
+    margin: 0px auto;
     height: 25px;
 }
 .pagin-list__item {
     font-size: 24px;
     display: inline-block;
-    margin: 0 7px;
+    margin: 0 10px;
     position: relative;
 }
 .pagin-list__link {
@@ -443,7 +446,7 @@ footer p {
 .pagin-list__link--active {
     color: #f3c38b;
 }
-.pagin-list__link--active:after, .pagin-list__item:after {
+.pagin-list__link--active:after, .pagin-list__link:after {
     content: "-";
     position: absolute;
     top: 2%;
@@ -457,12 +460,15 @@ footer p {
     z-index: 22;
     left: -13px;
 }
-.pagin-list__item:after  {
+.pagin-list__link:after  {
     content: "-";
-    top: 6%;
+    top: 0%;
     z-index: 10;
-    right: -11px;
+    right: -18px;
 }
-.pagin-list__item:last-child:after {
+.pagin-list__item:last-child .pagin-list__link:after {
     content: " ";
+}
+.bottom-book-page .wrapper {
+    min-height: 343px;
 }
