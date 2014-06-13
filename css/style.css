@@ -8,6 +8,7 @@ COLORS :
     3. GENERAL STYLES
     4. HEADER  STYLES
     5. SECTION MAIN STYLES
+    6. SECTION BOTTOM STYLES
 */
 
 /*1. FONT    STYLES*/
@@ -87,11 +88,11 @@ table {
   clear: both;
 }
 body {
-  background: #2e1004;
   font-family: 'machinecregular';
   font-size: 16px;
   line-height: 1;
   color: #767676;
+  background: #2e1004 url(../i/markup/body-bg.png);
 }
 a {
     text-decoration: none
@@ -137,6 +138,7 @@ header {
 footer {
     min-height: 220px;
     background: url(../i/markup/bg-footer.png) no-repeat;
+    color: #fff;
 }
 
 /*4. HEADER  STYLES*/
@@ -286,4 +288,66 @@ footer {
 .howdoit-list__link p {
     max-height: 49px;
     overflow: hidden;
+}
+.wrap-btn {
+    height: 18px;
+    margin: 10px 0 30px 0;
+}
+.more-link {
+    font-size: 18px;
+    color: #f3c38b;
+    background: url(../i/markup/arrow-link.png) right center no-repeat;
+    float: right;
+    padding: 0 25px 0 0;
+}
+.wrap-teas {}
+.wrap-teas img {
+    float: left;
+    margin: 0 25px 0 0;
+}
+.wrap-teas p {
+    font-size: 14px;
+}
+.main-menu-list--bottom {
+    background: url(../i/markup/bg-main-menu-bottom-menu.png) no-repeat;
+}
+/*6. SECTION BOTTOM STYLES*/
+.bottom {
+    min-height: 365px;
+    background: url(../i/markup/bg-bottom-section.png) top center no-repeat;
+    margin: -80px 0 0 0;
+    padding: 60px 0 0 0;
+    box-sizing: border-box;
+}
+.bottom-text {
+    font-size: 11px;
+    color: #fff;
+    display: table-cell;
+    vertical-align: bottom;
+    padding: 0 0 30px 0;
+}
+.bottom .wrapper {
+    min-height: 335px;
+    display: table;
+}
+.bottom-list {
+    position: absolute;
+    bottom: 80px;
+}
+.bottom-list__item {
+    float: left;
+    margin: 0 10px 0 0;
+}
+.bottom-list__link {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color: #fff;
+    text-decoration: underline;
+}
+.bottom-list__link:hover {
+    text-decoration: none;
+}
+footer p {
+    color: #fff;
+    padding: 29px 0 0 0;
 }
