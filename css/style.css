@@ -479,7 +479,8 @@ footer p {
 }
 .main--video-page .block-content {
     background: none;
-    padding: 0 0 0 55px;
+    padding: 0 0 0 45px;
+    margin: 45px 0 55px 0;
 }
 .wrap-video {
     width: 392px;
@@ -491,4 +492,8 @@ footer p {
 .block-content-wrap {
     float: left;
     width: 580px;
+    margin: 0px 0 0 12px;
+}
+.bottom-video-page .wrapper {
+    min-height: 336px;
 }
