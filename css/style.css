@@ -124,7 +124,7 @@ p {
 }
 header {
     background: #000 url(../i/markup/bg-main.png) center center no-repeat;
-    height: 395px;
+    height: 379px;
 }
 .main {
     background: url(../i/markup/bg-top-main.png) top center no-repeat;
@@ -162,8 +162,8 @@ footer {
     padding: 0 30px 0 0;
 }
 .center-header {
-    height: 215px;
-    margin: 20px 0 0 0;
+    height: 194px;
+    margin: 36px 0 0 0;
 }
 .center-header .wrap-logo {
     float: left;
@@ -172,9 +172,10 @@ footer {
     display: block;
 }
 .wrap-text {
-    width: 530px;
+    width: 516px;
     float: right;
-    padding: 80px 0;
+    padding: 57px 0;
+    line-height: 26px;
 }
 .wrap-text strong {
     color: #fff;
@@ -221,9 +222,9 @@ footer {
     padding: 0 12px;
 }
 .main-top-header {
-    height: 380px;
+    height: 382px;
     background: url(../i/markup/bg-main-menu-bottom.png) no-repeat;
-    padding: 30px;
+    padding: 15px;
     box-sizing: border-box;
 }
 
@@ -231,14 +232,16 @@ footer {
 
 .main-top-header strong {
     font-size: 30px;
+    padding: 17px 0 0 22px;
+    display: block;
 }
 .important-list {
-    padding: 12px 15px;
+    padding: 7px 15px;
     height: 300px;
 }
 .important-list__item {
     float: left;
-    margin: 0 30px 0 0;
+    margin: 0 39px 0 0;
 }
 .important-list__item:last-child {
     margin: 0;
@@ -252,16 +255,17 @@ footer {
 }
 .important-list__link strong {
     text-shadow: none;
-    margin: 20px 0 0 0;
+    margin: 2px 0 0 0;
     font-size: 20px;
+    padding: 16px 0 0 0;
 }
 .main h1 {
-    margin: 50px 0 20px 0;
+    margin: 6px 0 32px 0;
 }
 .howdoit-list {}
 .howdoit-list__item {
     float: left;
-    margin: 0 0 30px 16px;
+    margin: 0 15px 42px 0;
     width: 356px;
 }
 .howdoit-list__link {
@@ -283,15 +287,16 @@ footer {
 }
 .howdoit-list__link strong {
     font-size: 20px;
-    margin: 0 0 30px 0;
+    margin: 0 0 24px 0;
 }
 .howdoit-list__link p {
-    max-height: 49px;
+    max-height: 55px;
     overflow: hidden;
+    line-height: 14px;
 }
 .wrap-btn {
     height: 18px;
-    margin: 10px 0 30px 0;
+    margin: -12px 0 33px 0;
 }
 .more-link {
     font-size: 18px;
@@ -300,20 +305,21 @@ footer {
     float: right;
     padding: 0 25px 0 0;
 }
-.wrap-teas {}
 .wrap-teas img {
     float: left;
     margin: 0 25px 0 0;
 }
 .wrap-teas p {
     font-size: 14px;
+    line-height: 17px;
 }
 .main-menu-list--bottom {
     background: url(../i/markup/bg-main-menu-bottom-menu.png) no-repeat;
+    margin: 10px 0 0 0;
 }
 /*6. SECTION BOTTOM STYLES*/
 .bottom {
-    min-height: 365px;
+    min-height: 290px;
     background: url(../i/markup/bg-bottom-section.png) top center no-repeat;
     margin: -80px 0 0 0;
     padding: 60px 0 0 0;
@@ -327,7 +333,7 @@ footer {
     padding: 0 0 30px 0;
 }
 .bottom .wrapper {
-    min-height: 335px;
+    min-height: 265px;
     display: table;
 }
 .bottom-list {
