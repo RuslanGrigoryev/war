@@ -1,4 +1,4 @@
-﻿/*  
+/*  
 COLORS :
 
 #caa171 - top header  link orange.
@@ -7,6 +7,7 @@ COLORS :
     2. RESET   STYLES
     3. GENERAL STYLES
     4. HEADER  STYLES
+    5. SECTION MAIN STYLES
 */
 
 /*1. FONT    STYLES*/
@@ -98,6 +99,12 @@ a {
 a:hover {
     text-decoration: underline;
 }
+strong {
+    color: #fff;
+    display: block;
+    text-shadow: -1px 2px 2px rgba(0,0,0, .77);
+    text-transform: uppercase;
+}
 .f-left {
     float: left;
 }
@@ -143,7 +150,7 @@ footer {
     padding: 0 30px 0 0;
 }
 .center-header {
-    height: 230px;
+    height: 215px;
     margin: 20px 0 0 0;
 }
 .center-header .wrap-logo {
@@ -166,12 +173,12 @@ footer {
 }
 .bottom-header .wrapper {
     height: 108px;
-    background: url(../i/markup/bg-main-menu.png) no-repeat;
 }
 .main-menu-list {
     font-family: 'franklin_gothic_medium_condRg';
-    line-height: 108px;
+    line-height: 150px;
     padding: 0 30px;
+    background: url(../i/markup/bg-main-menu.png) no-repeat;
 }
 .main-menu-list__item {
     float: left;
@@ -182,13 +189,12 @@ footer {
     color: #f3c38b;
 }
 .main-menu-list--second {
-    background: url(../i/markup/bg-main-menu-second.png) no-repeat;
     width: 182px;
-    height: 56px;
+    height: 52px;
     position: absolute;
-    top: -20px;
-    right: 100px;
-    line-height: 56px;
+    top: 16px;
+    right: 34px;
+    line-height: 17px;
 }
 .main-menu-list--second__item {
     float: left;
@@ -201,4 +207,16 @@ footer {
 }
 .main-menu-list--second .top-header__item--stick {
     padding: 0 12px;
+}
+.main-top-header {
+    height: 210px;
+    background: url(../i/markup/bg-main-menu-bottom.png) no-repeat;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+/*5. SECTION MAIN STYLES*/
+
+.main-top-header strong {
+    font-size: 30px;
 }
