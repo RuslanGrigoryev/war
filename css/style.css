@@ -12,6 +12,7 @@ COLORS :
     7. BOOK PAGE STYLES
     8. PAGE VIDEO STYLES
     9. FEEDBACK PAGE STYLES
+    10.PAYMENT - POPUP STYLES
 */
 
 /*1. FONT    STYLES*/
@@ -548,4 +549,38 @@ footer p {
 }
 .feedback-form .send-btn:hover {
     background-position: 0px -53px;
+}
+/* 10.PAYMENT - POPUP STYLES */
+.payment-popup {
+    width: 974px;
+    height: 560px;
+    background: url(../i/markup/bg-page.png);
+    position: fixed;
+    top: 100px;
+    left: 100px;
+    border-radius: 5px;
+}
+.payment-popup h1 {
+    font-size: 36px;
+    text-align: center;
+    color: #4a5342;
+    height: 93px;
+    line-height: 93px;
+    background: #f5f5f5;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.payment-form {
+    background: #22261d;
+    border: 1px solid #62685d;
+    border-radius: 5px;
+    margin: 35px auto 14px;
+    width: 658px;
+    height: 299px;
+}
+.text-notice {
+    width: 658px;
+    font-size: 11px;
+    color: #666;
+    margin: 2px auto;
 }
