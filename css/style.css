@@ -640,6 +640,7 @@ footer p {
     border: none;
     text-transform: uppercase;
     outline: none;
+    cursor: pointer;
     font-family: 'machinecregular';
 }
 input[type=radio].payment-checkbox {
@@ -668,4 +669,29 @@ label.payment-label {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+}
+.obtain-form .wrap-field {
+    width: 609px;
+    margin: 0 auto;
+    text-align: center;
+}
+.obtain-label {
+    font-size: 12px;
+    color: #fff;
+    display: inline-block;
+    vertical-align: 2px;
+}
+.obtain-form__text {
+    width: 617px;
+    margin: 31px auto 18px;
+    color: #fff;
+    line-height: 17px;
+    font-size: 14px;
+}
+.obtain-form .go-btn {
+    float: none;   
+}
+.obtain-form .wrap-field__obtain {
+    text-align: left;
+    width: 623px;
 }
