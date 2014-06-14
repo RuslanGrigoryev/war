@@ -564,6 +564,7 @@ footer p {
     font-size: 36px;
     text-align: center;
     color: #4a5342;
+    letter-spacing: 0.5px;
     height: 93px;
     line-height: 93px;
     background: #f5f5f5;
@@ -574,22 +575,22 @@ footer p {
     background: #22261d;
     border: 1px solid #62685d;
     border-radius: 5px;
-    margin: 35px auto 14px;
-    width: 658px;
+    margin: 31px auto 29px;
+    width: 656px;
     height: 299px;
     font-family: Arial, sans-serif;
     padding: 20px 0 0 0;
     box-sizing: border-box;
 }
 .text-notice {
-    width: 658px;
+    width: 708px;
     font-size: 11px;
     color: #666;
-    margin: 2px auto;
+    margin: 2px 0 0 150px;
 }
 .wrap-field {
-    width: 320px;
-    margin: 0px auto 15px;
+    width: 274px;
+    margin: 10px 0 9px 159px;
     height: 35px;
     position: relative;
     padding: 5px;
@@ -612,13 +613,13 @@ footer p {
 }
 .wrap-field-input span {
     display: block;
-    margin: 0 0 20px 0;
+    margin: 0 0 12px 0;
 }
 .wrap-field-input input {
     background: #c3c8bf;
     border: 2px solid #939d89;
     border-radius: 5px;
-    width: 320px;
+    width: 286px;
     box-sizing: border-box;
     padding: 0 0 0 10px;
     height: 34px;
@@ -626,13 +627,14 @@ footer p {
 .wrap-field-btn {
     height: 50px;
 
-    margin: 38px auto;
+    margin: 33px auto;
 }
 .go-btn {
     width: 142px;
     height: 45px;
     background: url(../i/markup/bg-go-btn.png) no-repeat;
     float: right;
+    margin: 0 10px 0 0;
     color: #fff;
     font-size: 18px;
     border: none;
