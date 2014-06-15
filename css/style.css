@@ -99,7 +99,7 @@ body {
   font-size: 16px;
   line-height: 1;
   color: #767676;
-  background: #2e1004 url(../i/markup/body-bg.png);
+  background: #2e1004 url(../images/markup/body-bg.png);
 }
 a {
     text-decoration: none
@@ -130,11 +130,11 @@ p {
     float: right;
 }
 header {
-    background: #000 url(../i/markup/bg-main.png) center center no-repeat;
+    background: #000 url(../images/markup/bg-main.png) center center no-repeat;
     height: 379px;
 }
 .main {
-    background: url(../i/markup/bg-top-main.png) top center no-repeat;
+    background: url(../images/markup/bg-top-main.png) top center no-repeat;
     min-height: 1000px;
 }
 .wrapper {
@@ -144,14 +144,14 @@ header {
 }
 footer {
     min-height: 220px;
-    background: url(../i/markup/bg-footer.png) repeat-x;
+    background: url(../images/markup/bg-footer.png) repeat-x;
     color: #fff;
 }
 
 /*4. HEADER  STYLES*/
 
 .top-header {
-    background: url(../i/markup/pattern-header.png);
+    background: url(../images/markup/pattern-header.png);
     height: 27px;
     line-height: 27px;
 }
@@ -165,7 +165,7 @@ footer {
     margin: 0 0 0 30px;
 }
 .top-header__item--stick {
-    background: url(../i/markup/stick.png) right center no-repeat;
+    background: url(../images/markup/stick.png) right center no-repeat;
     padding: 0 30px 0 0;
 }
 .center-header {
@@ -198,7 +198,7 @@ footer {
     font-family: 'franklin_gothic_medium_condRg';
     line-height: 150px;
     padding: 0 25px;
-    background: url(../i/markup/bg-main-menu.png) no-repeat;
+    background: url(../images/markup/bg-main-menu.png) no-repeat;
 }
 .main-menu-list__item {
     float: left;
@@ -230,7 +230,7 @@ footer {
 }
 .main-top-header {
     height: 382px;
-    background: url(../i/markup/bg-main-menu-bottom.png) no-repeat;
+    background: url(../images/markup/bg-main-menu-bottom.png) no-repeat;
     padding: 15px;
     box-sizing: border-box;
 }
@@ -308,7 +308,7 @@ footer {
 .more-link {
     font-size: 18px;
     color: #f3c38b;
-    background: url(../i/markup/arrow-link.png) right center no-repeat;
+    background: url(../images/markup/arrow-link.png) right center no-repeat;
     float: right;
     padding: 0 25px 0 0;
 }
@@ -321,13 +321,13 @@ footer {
     line-height: 17px;
 }
 .main-menu-list--bottom {
-    background: url(../i/markup/bg-main-menu-bottom-menu.png) no-repeat;
+    background: url(../images/markup/bg-main-menu-bottom-menu.png) no-repeat;
     margin: 10px 0 0 0;
 }
 /*6. SECTION BOTTOM STYLES*/
 .bottom {
     min-height: 290px;
-    background: url(../i/markup/bg-bottom-section.png) top center no-repeat;
+    background: url(../images/markup/bg-bottom-section.png) top center no-repeat;
     margin: -80px 0 0 0;
     padding: 60px 0 0 0;
     box-sizing: border-box;
@@ -370,7 +370,7 @@ footer p {
     position: relative;
 }
 .main-page {
-    background: url(../i/markup/bg-page.png);
+    background: url(../images/markup/bg-page.png);
     min-height: 1000px;
     border-top-right-radius: 10px;  border-bottom-right-radius: 10px;  border-bottom-left-radius: 10px;
     padding: 23px;
@@ -379,7 +379,7 @@ footer p {
     width: 166px;
 
     height: 45px;
-    background: url(../i/markup/bg-tab-page.png) no-repeat;
+    background: url(../images/markup/bg-tab-page.png) no-repeat;
     position: absolute;
     top: -45px;
     left: 0;
@@ -400,7 +400,7 @@ footer p {
 .block-content {
     padding: 0px 100px 0 55px;
     position: relative;
-    background: url(../i/markup/sprite-book.png) -4px 5px no-repeat;
+    background: url(../images/markup/sprite-book.png) -4px 5px no-repeat;
     margin: 30px 0 33px 0;
 }
 .block-content__header {
@@ -431,7 +431,7 @@ footer p {
     position: absolute;
     right: 6px;
     top: 35px;
-    background: url(../i/markup/sprite-book.png) 48px -153px no-repeat;
+    background: url(../images/markup/sprite-book.png) 48px -153px no-repeat;
     line-height: 50px;
 }
 .pagin-list {
@@ -544,7 +544,7 @@ footer p {
     width: 168px;
     border: none;
     height: 47px;
-    background: url(../i/markup/sprite-send-btn.png) no-repeat;
+    background: url(../images/markup/sprite-send-btn.png) no-repeat;
     float: right;
 }
 .feedback-form .send-btn:hover {
@@ -554,7 +554,7 @@ footer p {
 .payment-popup {
     width: 974px;
     height: 560px;
-    background: url(../i/markup/bg-page.png);
+    background: url(../images/markup/bg-page.png);
     position: fixed;
     top: 100px;
     left: 100px;
@@ -608,7 +608,7 @@ footer p {
     width: 104px;
     box-sizing: border-box;
     height: 41px;
-    background: url(../i/markup/bg-label-payment.png) no-repeat;
+    background: url(../images/markup/bg-label-payment.png) no-repeat;
     padding: 10px 14px;
 }
 .wrap-field-input span {
@@ -632,7 +632,7 @@ footer p {
 .go-btn {
     width: 142px;
     height: 45px;
-    background: url(../i/markup/bg-go-btn.png) no-repeat;
+    background: url(../images/markup/bg-go-btn.png) no-repeat;
     float: right;
     margin: 0 10px 0 0;
     color: #fff;
@@ -662,7 +662,7 @@ input[type=radio].payment-checkbox:checked + label.payment-label {
     background-position: 0 -22px;
 }
 label.payment-label {
-    background-image:url(../i/markup/payment-checkbox.png);
+    background-image:url(../images/markup/payment-checkbox.png);
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
