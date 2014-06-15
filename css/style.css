@@ -515,6 +515,7 @@ footer p {
 .feedback-form label {
     display: block;
     margin: 16px 0 10px 0;
+    font-weight: bold;
 }
 .feedback-form input {
     border: 1px solid #5b6057;
@@ -544,6 +545,8 @@ footer p {
     height: 47px;
     background: url(../images/markup/sprite-send-btn.png) no-repeat;
     float: right;
+    font-weight: bold;
+    text-shadow: 2px 2px 3px rgba(0,0,0,.75);
 }
 .feedback-form .send-btn:hover {
     background-position: 0px -53px;
