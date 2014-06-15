@@ -162,7 +162,7 @@ footer {
 }
 .top-header__item {
     float: left;
-    margin: 0 0 0 30px;
+    margin-left: 30px;
 }
 .top-header__item--stick {
     background: url(../images/markup/stick.png) right center no-repeat;
@@ -170,7 +170,7 @@ footer {
 }
 .center-header {
     height: 194px;
-    margin: 36px 0 0 0;
+    margin: 36px 0 0;
 }
 .center-header .wrap-logo {
     float: left;
@@ -218,7 +218,7 @@ footer {
 }
 .main-menu-list--second__item {
     float: left;
-    margin: 0 0 0 15px;
+    margin-left: 15px;
 }
 .main-menu-list--second__link {
     color: #fff;
@@ -248,7 +248,7 @@ footer {
 }
 .important-list__item {
     float: left;
-    margin: 0 39px 0 0;
+    margin-right: 39px;
 }
 .important-list__item:last-child {
     margin: 0;
@@ -263,7 +263,7 @@ footer {
 .important-list__link strong {
     text-shadow: none;
     font-size: 20px;
-    padding: 18px 0 0 0;
+    padding: 18px 0 0;
 }
 .main h1 {
     margin: 6px 0 32px 0;
@@ -283,7 +283,7 @@ footer {
 }
 .howdoit-list__link img {
     float: left;
-    margin: 0 10px 0 0;
+    margin-right: 10px;
 }
 .howdoit-list__link .wrap-text__how {
     padding: 10px 0;
@@ -293,7 +293,7 @@ footer {
 }
 .howdoit-list__link strong {
     font-size: 20px;
-    margin: 0 0 24px 0;
+    margin-bottom: 24px;
 }
 .howdoit-list__link p {
     max-height: 55px;
@@ -313,7 +313,7 @@ footer {
 }
 .wrap-teas img {
     float: left;
-    margin: 0 25px 0 0;
+    margin-right: 25px;
 }
 .wrap-teas p {
     font-size: 14px;
@@ -321,14 +321,14 @@ footer {
 }
 .main-menu-list--bottom {
     background: url(../images/markup/bg-main-menu-bottom-menu.png) no-repeat;
-    margin: 10px 0 0 0;
+    margin: 10px 0 0;
 }
 /*6. SECTION BOTTOM STYLES*/
 .bottom {
     min-height: 290px;
     background: url(../images/markup/bg-bottom-section.png) top center no-repeat;
-    margin: -80px 0 0 0;
-    padding: 60px 0 0 0;
+    margin: -80px 0 0;
+    padding: 60px 0 0;
     box-sizing: border-box;
 }
 .bottom-text {
@@ -361,11 +361,11 @@ footer {
 }
 footer p {
     color: #fff;
-    padding: 29px 0 0 0;
+    padding: 29px 0 0;
 }
 /*7. book page*/
 .main--book-page {
-    padding: 56px 0 0 0;
+    padding: 56px 0 0;
     position: relative;
 }
 .main-page {
@@ -376,7 +376,6 @@ footer p {
 }
 .one-tab {
     width: 166px;
-
     height: 45px;
     background: url(../images/markup/bg-tab-page.png) no-repeat;
     position: absolute;
@@ -385,7 +384,7 @@ footer p {
     line-height: 59px;
 }
 .one-tab h2 {
-    padding: 0 0 0 26px;
+    padding-left: 26px;
     font-size: 30px;
     color: #fff;
 }
@@ -416,10 +415,10 @@ footer p {
 }
 .block-content__text {
     color: #b3b3b3;
-    padding: 12px 0 0 0;
+    padding: 12px 0 0;
     border-top: 1px dashed #b3b3b3;
     line-height: 14px;
-    margin: 0 15px 0 0;
+    margin-right: 15px;
 }
 .block-content__download-link {
     width: 105px;
@@ -483,20 +482,21 @@ footer p {
 }
 .main--video-page .block-content {
     background: none;
-    padding: 0 0 0 45px;
+    padding-left: 45px;
     margin: 45px 0 55px 0;
+    padding: 0px 0px 0 55px;
 }
 .wrap-video {
     width: 392px;
     height: 234px;
     background: #acb4a4;
     float: left;
-    margin: 0 20px 0 0;
+    margin-right: 20px;
 }
 .block-content-wrap {
     float: left;
-    width: 580px;
-    margin: 0px 0 0 12px;
+    width: 570px;
+    margin-left: 12px;
 }
 .bottom-video-page .wrapper {
     min-height: 336px;
@@ -504,14 +504,13 @@ footer p {
 /*9. FEEDBACK PAGE STYLES*/
 .feedback-form {
     width: 293px;
-
     font-family: Arial, sans-serif;
     color: #f5f5f5;
     font-size: 14px;
     margin: 80px 0 0 143px;
 }
 .feedback-form h5 {
-    margin: 0 0 40px 0;
+    margin-bottom: 40px;
 }
 .feedback-form label {
     display: block;
@@ -524,7 +523,7 @@ footer p {
     width: 281px;
     height: 29px;
     color: #fff;
-    padding: 0 0 0 10px;
+    padding-left: 10px;
 }
 .feedback-form textarea {
     border: 1px solid #5b6057;
@@ -532,7 +531,7 @@ footer p {
     border-radius: 5px;
     width: 281px;
     height: 127px;
-    margin: 0 0 20px 0;
+    margin-bottom: 20px;
     max-height: 140px;
     resize: none;
     color: #fff;
@@ -578,7 +577,7 @@ footer p {
     width: 656px;
     height: 299px;
     font-family: Arial, sans-serif;
-    padding: 20px 0 0 0;
+    padding: 20px 0 0;
     box-sizing: border-box;
 }
 .text-notice {
@@ -601,7 +600,6 @@ footer p {
 }
 .wrap-input {
     position: absolute;
-    
     right: 0px;
     top: 0px;
     width: 104px;
@@ -612,7 +610,7 @@ footer p {
 }
 .wrap-field-input span {
     display: block;
-    margin: 0 0 12px 0;
+    margin-bottom: 12px;
 }
 .wrap-field-input input {
     background: #c3c8bf;
@@ -625,7 +623,6 @@ footer p {
 }
 .wrap-field-btn {
     height: 50px;
-
     margin: 33px auto;
 }
 .go-btn {
@@ -633,7 +630,7 @@ footer p {
     height: 45px;
     background: url(../images/markup/bg-go-btn.png) no-repeat;
     float: right;
-    margin: 0 10px 0 0;
+    margin-right: 10px;
     color: #fff;
     font-size: 18px;
     border: none;
@@ -706,7 +703,7 @@ label.payment-label {
     margin: 0 auto;
 }
 .send-form {
-    padding: 14px 0 0 0;
+    padding: 14px 0 0;
 }
 .wrap-field-input {
     margin: 21px 0 0 160px;
@@ -717,7 +714,7 @@ label.payment-label {
 }
 .send-form .obtain-label {
     width: 450px;
-    margin: 11px 0 0 0;
+    margin: 11px 0 0;
     vertical-align: -9px;
     line-height: 13px;
 }
