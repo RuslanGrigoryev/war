@@ -559,8 +559,9 @@ footer p {
     background: url(../images/markup/bg-page.png);
     position: fixed;
     top: 100px;
-    left: 100px;
+    left: 50%;
     border-radius: 5px;
+    margin: 0 0 0 -487px;
 }
 .payment-popup h1 {
     font-size: 36px;
