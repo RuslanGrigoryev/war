@@ -157,6 +157,7 @@ footer {
 .top-header__link {
     color: #caa171;
     font: 400 12px Arial , sans-serif;
+    line-height: 27px;
 }
 .top-header__item {
     float: left;
@@ -342,7 +343,7 @@ footer {
 }
 .bottom-list {
     position: absolute;
-    bottom: 80px;
+    bottom: 90px;
 }
 .bottom-list__item {
     float: left;
@@ -573,7 +574,7 @@ footer p {
     background: #22261d;
     border: 1px solid #62685d;
     border-radius: 5px;
-    margin: 31px auto 19px;
+    margin: 31px auto 29px;
     width: 656px;
     height: 299px;
     font-family: Arial, sans-serif;
