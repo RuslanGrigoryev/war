@@ -318,6 +318,7 @@ footer {
 .wrap-teas p {
     font-size: 14px;
     line-height: 17px;
+    color: #fff;
 }
 .main-menu-list--bottom {
     background: url(../images/markup/bg-main-menu-bottom-menu.png) no-repeat;
