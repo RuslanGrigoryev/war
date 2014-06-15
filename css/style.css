@@ -400,7 +400,7 @@ footer p {
 .block-content {
     padding: 0px 100px 0 55px;
     position: relative;
-    background: url(../images/markup/sprite-book.png) -4px 5px no-repeat;
+    background: url(../images/markup/ico-section.png) top left no-repeat;
     margin: 30px 0 33px 0;
 }
 .block-content__header {
@@ -431,7 +431,7 @@ footer p {
     position: absolute;
     right: 6px;
     top: 35px;
-    background: url(../images/markup/sprite-book.png) 48px -153px no-repeat;
+    background: url(../images/markup/ico-download.png) 53px 3px no-repeat;
     line-height: 50px;
 }
 .pagin-list {
