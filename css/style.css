@@ -144,7 +144,7 @@ header {
 }
 footer {
     min-height: 220px;
-    background: url(../i/markup/bg-footer.png) no-repeat;
+    background: url(../i/markup/bg-footer.png) repeat-x;
     color: #fff;
 }
 
